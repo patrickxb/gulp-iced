@@ -1,41 +1,5 @@
 
-## Information
-
-<table>
-<tr>
-<td>Package</td><td>gulp-iced</td>
-</tr>
-<tr>
-<td>Description</td>
-<td>Compiles IcedCoffeeScript</td>
-</tr>
-<tr>
-<td>Node Version</td>
-<td>>= 0.4</td>
-</tr>
-</table>
-
-Just a slightly modified version of [gulp-coffee](https://github.com/wearefractal/gulp-coffee) to compile [IcedCoffeeScript](http://maxtaco.github.io/coffee-script).
-
-## Usage
-
-```javascript
-var iced = require('gulp-iced');
-
-gulp.task('iced', function() {
-  gulp.src('./src/*.coffee')
-    .pipe(iced({bare: true}).on('error', gutil.log))
-    .pipe(gulp.dest('./public/'))
-});
-```
-
-## Options
-
-The options object supports the same options as the standard IcedCoffeeScript compiler
-
-## LICENSE for original gulp-coffee
-
-(MIT License)
+Original License for gulp-coffee:
 
 Copyright (c) 2013 Fractal <contact@wearefractal.com>
 
@@ -58,9 +22,7 @@ LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION
 OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION
 WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 
-## LICENSE for gulp-iced
-
-(MIT License)
+License for gulp-iced:
 
 Copyright (c) 2014 Patrick Crosby <patrick@stathat.com>
 
