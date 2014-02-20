@@ -1,0 +1,33 @@
+{
+        "name": "gulp-iced",
+        "description": "Compile Iced CoffeeScript files",
+        "version": "0.0.1",
+        "homepage": "http://github.com/patrickxb/gulp-iced",
+        "repository": "git://github.com/patrickxb/gulp-iced.git",
+        "author": "Patrick Crosby <patrick@stathat.com> (http://www.stathat.com/)",
+        "main": "./index.js",
+        "keywords": [
+                "gulpplugin"
+        ],
+        "dependencies": {
+                "event-stream": "~3.0.20",
+                "iced-coffee-script": "~1.7.0",
+                "gulp-util": "~2.2.1"
+        },
+        "devDependencies": {
+                "mocha": "*",
+                "should": "*"
+        },
+        "scripts": {
+                "test": "mocha"
+        },
+        "engines": {
+                "node": ">= 0.4.0"
+        },
+        "licenses": [
+                {
+                "type": "MIT",
+                "url": "http://github.com/patrickxb/gulp-iced/raw/master/LICENSE"
+        }
+        ]
+}
