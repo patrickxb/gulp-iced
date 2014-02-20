@@ -23,9 +23,9 @@ Just a slightly modified version of [gulp-coffee](https://github.com/wearefracta
 var iced = require('gulp-iced');
 
 gulp.task('iced', function() {
-  gulp.src('./src/*.coffee')
-    .pipe(iced({bare: true}).on('error', gutil.log))
-    .pipe(gulp.dest('./public/'))
+  gulp.src('./src/**/*.iced')
+    .pipe(iced({runtime: 'inline'}).on('error', gutil.log))
+    .pipe(gulp.dest('./dist/'))
 });
 ```
 

@@ -19,6 +19,7 @@ module.exports = function (opt) {
                 if (opt) {
                         options = {
                                 bare: opt.bare != null ? !! opt.bare : false,
+                                runtime: opt.runtime != null ? opt.runtime : 'node',
                                 literate: opt.literate != null ? !! opt.literate : options.literate,
                                 sourceMap: opt.sourceMap != null ? !! opt.sourceMap : false,
                                 filename: file.path,

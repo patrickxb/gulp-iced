@@ -1,7 +1,7 @@
 {
         "name": "gulp-iced",
         "description": "Compile Iced CoffeeScript files",
-        "version": "0.0.1",
+        "version": "0.0.2",
         "homepage": "http://github.com/patrickxb/gulp-iced",
         "repository": "git://github.com/patrickxb/gulp-iced.git",
         "author": "Patrick Crosby <patrick@stathat.com> (http://www.stathat.com/)",
