@@ -11,7 +11,7 @@
         ],
         "dependencies": {
                 "event-stream": "~3.0.20",
-                "iced-coffee-script": "~1.7.0-",
+                "iced-coffee-script": "~1.8.0-",
                 "gulp-util": "~2.2.1"
         },
         "devDependencies": {
